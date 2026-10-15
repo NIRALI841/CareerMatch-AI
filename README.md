@@ -1,10 +1,10 @@
-# 🚀 JobNest: Full-Stack Role-Based Job Portal & Aggregator
+# 🚀 CareerMatch AI - AI-Powered job Protal
 
 [![Node.js](https://img.shields.io/badge/Node.js-v20+-green.svg)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-v3.4-38bdf8.svg)](https://tailwindcss.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-brightgreen.svg)](https://mongoosejs.com/)
-[![OpenAPI/Swagger](https://img.shields.io/badge/Swagger-OpenAPI%203.0-85ea2d.svg)](http://localhost:5000/api/docs)
+[![OpenAPI/Swagger](https://img.shields.io/badge/Swagger-OpenAPI%203.0-85ea2d.svg)](http://localhost:5001/api/docs)
 [![Tests](https://img.shields.io/badge/Tests-13%20Passed-success.svg)](https://jestjs.io/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](https://www.docker.com/)
 [![CI/CD](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF.svg)](https://github.com/)
@@ -20,7 +20,7 @@ A modern, production-grade **Role-Based Job Portal System** engineered with **Re
 1. **[GitHub Repository](#-github-repository-setup)**: Isolated local Git repo initialized with `.gitignore`, clean commits, and GitHub push workflow.
 2. **[Live Deployment URL & Guide](#-live-deployment-guide)**: Ready-to-deploy multi-platform configurations for **Render**, **Vercel**, **Railway**, and **Docker**.
 3. **[Database Schema](#-database-schema--erd)**: Comprehensive schema specification in [`DATABASE_SCHEMA.md`](./DATABASE_SCHEMA.md) with Mermaid ERD, collections, indexes, and validation rules.
-4. **[API Documentation](#-api-documentation--swagger)**: Interactive Swagger UI at `http://localhost:5000/api/docs` plus offline markdown reference in [`API_DOCUMENTATION.md`](./API_DOCUMENTATION.md).
+4. **[API Documentation](#-api-documentation--swagger)**: Interactive Swagger UI at `http://localhost:5001/api/docs` plus offline markdown reference in [`API_DOCUMENTATION.md`](./API_DOCUMENTATION.md).
 5. **[Postman Collection](#-postman-collection)**: Exportable, production-ready [`postman_collection.json`](./postman_collection.json) with pre-configured variables, JWT tokens, and role-based test cases.
 6. **[Production README](#-table-of-contents)**: Comprehensive documentation, system architecture, role credentials, and setup instructions.
 
@@ -179,7 +179,7 @@ The complete database schema documentation is available in [`DATABASE_SCHEMA.md`
 
 ## 📖 API Documentation & Swagger
 
-- **Interactive Swagger UI**: Start the backend and open `http://localhost:5000/api/docs` in your browser.
+- **Interactive Swagger UI**: Start the backend and open `http://localhost:5001/api/docs` in your browser.
 - **Specification Document**: View the complete request/response contracts in [`API_DOCUMENTATION.md`](./API_DOCUMENTATION.md).
 
 ---
@@ -238,8 +238,8 @@ Open two terminals:
 ```bash
 cd backend
 npm run dev
-# API runs on: http://localhost:5000/api
-# Swagger Docs on: http://localhost:5000/api/docs
+# API runs on: http://localhost:5001/api
+# Swagger Docs on: http://localhost:5001/api/docs
 ```
 
 **Terminal 2 (Frontend Client):**
@@ -296,9 +296,9 @@ Run the entire application stack (Frontend + Backend + MongoDB) using Docker Com
 docker-compose up --build
 ```
 
-- **Frontend & Backend API**: `http://localhost:5000`
+- **Frontend & Backend API**: `http://localhost:5001`
 - **MongoDB Container**: `localhost:27017`
-- **Interactive Swagger Docs**: `http://localhost:5000/api/docs`
+- **Interactive Swagger Docs**: `http://localhost:5001/api/docs`
 
 To stop containers:
 ```bash
