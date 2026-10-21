@@ -57,7 +57,7 @@ const SplashScreen = ({ onFinish }) => {
         {/* Brand Name & Tagline */}
         <div className="space-y-2 animate-fadeIn" style={{ animationDelay: '200ms' }}>
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">
-            Job<span className="text-blue-600">ora</span>
+            Career<span className="text-blue-600">Match AI</span>
           </h1>
           <p className="text-sm sm:text-base font-medium text-slate-500 max-w-xs sm:max-w-sm">
             Empowering Careers & Connecting Top Talent
